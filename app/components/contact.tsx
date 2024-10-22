@@ -65,67 +65,89 @@ Sinf:    ${values.degri}
 	}
 
 	return (
-		<Form {...form}>
-			<form onSubmit={form.handleSubmit(onSubmit)} className='space-y-3'>
-				<FormField
-					control={form.control}
-					name='name'
-					render={({ field }) => (
-						<FormItem>
-							<FormControl>
-								<Input placeholder='Ism' disabled={isLoading} {...field} />
-							</FormControl>
-							<FormMessage />
-						</FormItem>
-					)}
-				/>
-				<FormField
-					control={form.control}
-					name='surName'
-					render={({ field }) => (
-						<FormItem>
-							<FormControl>
-								<Input placeholder='Familya' disabled={isLoading} {...field} />
-							</FormControl>
-							<FormMessage />
-						</FormItem>
-					)}
-				/>
-				<FormField
-					control={form.control}
-					name='num'
-					render={({ field }) => (
-						<FormItem>
-							<FormControl>
-								<Input placeholder='Tell nomer' disabled={isLoading} {...field} />
-							</FormControl>
-							<FormMessage />
-						</FormItem>
-					)}
-				/>
-				<FormField
-					control={form.control}
-					name='degri'
-					render={({ field }) => (
-						<FormItem>
-							<FormControl>
-								<Input placeholder='Sinf' disabled={isLoading} {...field} />
-							</FormControl>
-							<FormMessage />
-						</FormItem>
-					)}
-				/>
-				<Button
-					className='w-fit bg-blue-600 text-white'
-					size={'lg'}
-					type='submit'
-					disabled={isLoading}
-				>
-					<span>Send</span>
-					<Send className='ml-2 size-4' />
-				</Button>
-			</form>
-		</Form>
+		<div className='w-[600px]'>
+			<Form {...form}>
+				<form onSubmit={form.handleSubmit(onSubmit)} className='space-y-3'>
+					<FormField
+						control={form.control}
+						name='name'
+						render={({ field }) => (
+							<FormItem>
+								<FormControl>
+									<Input
+										placeholder='Ism'
+										disabled={isLoading}
+										{...field}
+										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+									/>
+								</FormControl>
+								<FormMessage />
+							</FormItem>
+						)}
+					/>
+					<FormField
+						control={form.control}
+						name='surName'
+						render={({ field }) => (
+							<FormItem>
+								<FormControl>
+									<Input
+										placeholder='Familya'
+										disabled={isLoading}
+										{...field}
+										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+									/>
+								</FormControl>
+								<FormMessage />
+							</FormItem>
+						)}
+					/>
+					<FormField
+						control={form.control}
+						name='num'
+						render={({ field }) => (
+							<FormItem>
+								<FormControl>
+									<Input
+										placeholder='Tell nomer'
+										disabled={isLoading}
+										{...field}
+										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+									/>
+								</FormControl>
+								<FormMessage />
+							</FormItem>
+						)}
+					/>
+					<FormField
+						control={form.control}
+						name='degri'
+						render={({ field }) => (
+							<FormItem>
+								<FormControl>
+									<Input
+										placeholder='Sinf'
+										disabled={isLoading}
+										{...field}
+										className='py-5 outline-none active:border-green-500 active:outline-green-500 active:shadow-green-2 text-white text-lg'
+									/>
+								</FormControl>
+								<FormMessage />
+							</FormItem>
+						)}
+					/>
+					<Button
+						className=' bg-blue-600 text-white w-full py-5'
+						size={'lg'}
+						type='submit'
+						disabled={isLoading}
+					>
+						<span>Send</span>
+						<Send className='ml-2 size-4' />
+					</Button>
+				</form>
+			</Form>
+		</div>
 	)
 }
 
