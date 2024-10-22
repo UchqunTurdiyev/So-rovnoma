@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import ContactForm from './components/contact'
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
 			<h1 className='text-center pt-28 text-white/60 lg:text-6xl text-2xl'>
 				Samarqandda joylashgan{' '}
 				<span className='text-green-400'>Renessans school</span> xususiy maktabi
-				uchun So'rovnoma
+				uchun So&apos;rovnoma
 			</h1>
 			<div className='flex  w-full items-center justify-center lg:pt-20 pt-10'>
 				<ContactForm />
