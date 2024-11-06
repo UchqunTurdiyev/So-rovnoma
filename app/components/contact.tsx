@@ -78,7 +78,7 @@ Sinf:    ${values.degri}
 										placeholder='Ism'
 										disabled={isLoading}
 										{...field}
-										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
@@ -95,7 +95,7 @@ Sinf:    ${values.degri}
 										placeholder='Familya'
 										disabled={isLoading}
 										{...field}
-										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
@@ -112,14 +112,14 @@ Sinf:    ${values.degri}
 										placeholder='Tell nomer'
 										disabled={isLoading}
 										{...field}
-										className='py-5 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
 							</FormItem>
 						)}
 					/>
-					<FormField
+					{/* <FormField
 						control={form.control}
 						name='degri'
 						render={({ field }) => (
@@ -129,15 +129,15 @@ Sinf:    ${values.degri}
 										placeholder='Sinf'
 										disabled={isLoading}
 										{...field}
-										className='py-5 outline-none active:border-green-500 active:outline-green-500 active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500 active:outline-green-500 active:shadow-green-2 text-white text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
 							</FormItem>
 						)}
-					/>
+					/> */}
 					<Button
-						className=' bg-blue-600 text-white w-full py-5'
+						className=' bg-orange-600 text-white text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
