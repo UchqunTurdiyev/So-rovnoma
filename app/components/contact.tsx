@@ -78,7 +78,7 @@ Sinf:    ${values.degri}
 										placeholder='Ism'
 										disabled={isLoading}
 										{...field}
-										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-gray-600 text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
@@ -95,7 +95,7 @@ Sinf:    ${values.degri}
 										placeholder='Familya'
 										disabled={isLoading}
 										{...field}
-										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-gray-600 text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
@@ -112,7 +112,7 @@ Sinf:    ${values.degri}
 										placeholder='Tell nomer'
 										disabled={isLoading}
 										{...field}
-										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-white text-lg'
+										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-gray-600 text-lg'
 									/>
 								</FormControl>
 								<FormMessage />
@@ -137,7 +137,7 @@ Sinf:    ${values.degri}
 						)}
 					/> */}
 					<Button
-						className=' bg-orange-600 text-white text-xl w-full py-6'
+						className=' bg-orange-600 hover:bg-white hover:border-2 hover:border-orange-600 hover:text-orange-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
