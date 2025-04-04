@@ -139,7 +139,7 @@ Sinf:    ${values.degri}
 					/> */}
 					<Link href={'https://www.instagram.com/isft_samarqand/'}>
 					<Button
-						className=' bg-green-500 hover:bg-white hover:border-2 hover:border-green-600 hover:text-green-600 text-white transition-all text-xl w-full py-6'
+						className=' bg-red-500 hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
