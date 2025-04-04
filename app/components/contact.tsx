@@ -93,7 +93,7 @@ Sinf:    ${values.degri}
 							<FormItem>
 								<FormControl>
 									<Input
-										placeholder='Familya'
+										placeholder='Familiya'
 										disabled={isLoading}
 										{...field}
 										className='py-6 outline-none active:border-green-500  active:shadow-green-2 text-gray-600 text-lg'
@@ -137,9 +137,9 @@ Sinf:    ${values.degri}
 							</FormItem>
 						)}
 					/> */}
-					<Link href={'https://www.instagram.com/isft_samarqand/'}>
+					<Link href={'https://www.instagram.com/isft_samarqand/'} className='mt-4'>
 					<Button
-						className=' bg-red-500 hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 text-white transition-all text-xl w-full py-6'
+						className='mt-3 bg-red-500 hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
