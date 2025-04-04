@@ -16,6 +16,7 @@ import {
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { toast } from 'sonner'
+import Link from 'next/link'
 
 function ContactForm() {
 	const [isLoading, setIsLoading] = useState(false)
@@ -136,6 +137,7 @@ Sinf:    ${values.degri}
 							</FormItem>
 						)}
 					/> */}
+					<Link href={'https://www.instagram.com/isft_samarqand/'}>
 					<Button
 						className=' bg-green-500 hover:bg-white hover:border-2 hover:border-green-600 hover:text-green-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
@@ -145,6 +147,8 @@ Sinf:    ${values.degri}
 						<span>Send</span>
 						<Send className='ml-2 size-4' />
 					</Button>
+					
+					</Link>
 				</form>
 			</Form>
 		</div>
