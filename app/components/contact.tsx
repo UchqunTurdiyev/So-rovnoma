@@ -137,7 +137,7 @@ Sinf:    ${values.degri}
 						)}
 					/> */}
 					<Button
-						className=' bg-orange-600 hover:bg-white hover:border-2 hover:border-orange-600 hover:text-orange-600 text-white transition-all text-xl w-full py-6'
+						className=' bg-green-500 hover:bg-white hover:border-2 hover:border-green-600 hover:text-green-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
