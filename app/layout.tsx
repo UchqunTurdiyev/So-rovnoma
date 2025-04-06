@@ -44,6 +44,8 @@ export default function RootLayout({
             `,
 					}}
 				/>
+				{/* DOMAIN WERIFIKATION */}
+				<meta name="facebook-domain-verification" content="iqysbyik7p08micgzqyisqep12raqc" />
 			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
