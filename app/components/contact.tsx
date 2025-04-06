@@ -137,18 +137,19 @@ Sinf:    ${values.degri}
 							</FormItem>
 						)}
 					/> */}
-					{/* <Link href={'https://www.instagram.com/isft_samarqand/'} className='mt-4'> */}
 					<Button
 						className='mt-3 bg-red-500 hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 text-white transition-all text-xl w-full py-6'
 						size={'lg'}
 						type='submit'
 						disabled={isLoading}
 					>
+					<Link href={'https://www.instagram.com/isft_samarqand/'} className='mt-4 flex gap-2  items-center pb-4'>
+
 						<span>Send</span>
 						<Send className='ml-2 size-4' />
+					</Link>
 					</Button>
 					
-					{/* </Link> */}
 				</form>
 			</Form>
 		</div>
